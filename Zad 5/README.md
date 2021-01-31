@@ -1,6 +1,6 @@
 # ARTOS (Art of System Testing)
 
-![ARTOS](IMAGES/Artos.png)
+![ARTOS](Images/Artos.png)
 
 ## Wprowadzenie
 ************
