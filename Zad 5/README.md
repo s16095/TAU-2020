@@ -62,6 +62,74 @@ ARTOS używa skrótów Javy dla większości funkcji. Lista wpsieranych skrótó
 |@UnitDependency | Method | Declares unit dependency on other unit(s) implemented within single test case|
 |@StepDefinition | Method | Declares step definition that binds test unit to feature file|
 
+## Instalacja
+************
+
+### Wymagania systemowe
+
+    Platform
+
+            Windows, Linux, MAC or any platform which can run Java 8 or above.
+
+    JDK
+
+            Artos can be integrated with any Java project compiled with JDK 8U45 or higher.
+
+
+### Dodawanie do dependency
+
+      Non-Maven Projekty
+
+         Pobierz najnowszą wersję Artos z tej strony - https://mvnrepository.com/artifact/com.theartos/artos
+         Dodaj Jar do project build path.
+
+      Maven Projekt
+
+        Skopiuj ostatnią jar dependency XML block z tej strony - https://mvnrepository.com/artifact/com.theartos/artos
+        Dodaj dependency do projektowego pom.xml pliku
+
+
+### IntelliJ IDE
+
+Aby uzyć Artos w Intelij IDE unikająć błędów i przyspieszając proces można zaimportować wzór automatyczny.
+
+#### Konfiguracja test templates w InteliJ IDE
+
+      Pobierz IntelliJ_template.zip file z : https://github.com/Arpit-Shah/Artos/tree/master/src/com/artos/template/
+
+      Wybierz: Browse to File => Import Settings.
+
+      Wyszukaj i wskaż pobrany IntelliJ_template.zip file.
+      
+  ![InteliJ1](Images/Intelij1.png)
+  
+      Zaznacz oba checkboxy
+      
+  ![InteliJ2](Images/Intelij2.png)   
+  
+      Następujące templates zostaną dodane
+
+        ArtosRunner
+        ArtosTestCase
+        
+
+#### Używanie templates
+
+      Prawy przycisk myszy na paczce projektowej
+
+      Wybierz new a potem desired template.
+      
+  ![InteliJ3](Images/Intelij3.png)
+  
+     Wprowadz nazwę klasy
+
+     Skeleton code zostanie dodany do klasy
+
+     Napisz BDD test plan w bdd attribute pod @TestPlan adnotacją.
+
+     Zacznij pisać logikę testy pomiędzy dwiema zielonymi liniami.
+     
+   ![InteliJ4](Images/Intelij4.png)   
 
 ## Przykłady użycia
 ************
