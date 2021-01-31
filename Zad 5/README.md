@@ -14,7 +14,8 @@ Jego celem jest dostarczenie frameworków do tesotowania, które są proste w ob
 Słownik Frameworka
 ************
 
-.. csv-table:: 
+-------------
+   csv-table:: 
    :header: **Keyword**, **Description**
    :widths: 27, 73
    :stub-columns: 0
@@ -33,7 +34,7 @@ Słownik Frameworka
    GUI test selector , "Prompt that displays scoped test cases and allow the user to run selective test cases"
    Failure highlight , "Textually representation of failed test cases and its unit for user"
 
-..
+-------------
 
 Skróty
 ************
