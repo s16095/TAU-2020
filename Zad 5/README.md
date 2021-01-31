@@ -61,32 +61,6 @@ ARTOS używa skrótów Javy dla większości funkcji. Lista wpsieranych skrótó
 |@StepDefinition | Method | Declares step definition that binds test unit to feature file|
 
 
-.. csv-table:: 
-   :header: **Annotation**, **Applies To**, **Usage**
-   :widths: 22, 15, 63
-   :stub-columns: 0
-
-   @TestCase         , Class         , "Denotes that class is a test case"
-   @TestPlan         , Class         , "Declares information required for test plan"
-   @Unit             , Method        , "Denotes that method is a test unit"
-   @BeforeTestSuite  , Method        , "Denotes that the annotated method should be executed once before test suite execution"
-   @AfterTestSuite   , Method        , "Denotes that the annotated method should be executed once after test suite execution"
-   @BeforeTest       , Method        , "Denotes that the annotated method should be executed before each test case execution"
-   @AfterTest        , Method        , "Denotes that the annotated method should be executed after each test case execution"
-   @BeforeTestUnit   , Method        , "Denotes that the annotated method should be executed before each test unit execution"
-   @AfterTestUnit    , Method        , "Denotes that the annotated method should be executed after each test unit execution"
-   @AfterFailedUnit	 , Method 		 , "Denotes that the annotated method should be executed after each failed test unit execution"
-   @DataProvider     , Method        , "Denotes that the annotated method is the supplier of a test data and declares a unique name for the method"
-   @ExpectedException, Method        , "Declares rules of managing exception of the annotated method"
-   @Group            , Class/Method  , "Declares group name(s) that the annotated test case/unit belongs to" 
-   @KnownToFail      , Method        , "Declares that the annotated test unit is known to fail"
-   @TestImportance   , Class/method  , "Declares importance of the annotated test case/unit"
-   @TestDependency   , Class         , "Declares test case dependency on other test case(s)"
-   @UnitDependency   , Method        , "Declares unit dependency on other unit(s) implemented within single test case"
-   @StepDefinition   , method        , "Declares step definition that binds test unit to feature file"
-
-..
-
 ##Przykłady użycia
 ************
 
