@@ -4,7 +4,7 @@ Wprowadzenie
 ************
 
 ARTOS (Art of System Testing)
-#############################
+************
 
 
 
@@ -12,7 +12,7 @@ Artos jest zaprojektowany przez grupę doświadczonych testerów jako **darmowy*
 Jego celem jest dostarczenie frameworków do tesotowania, które są proste w obsłudze. Artos jest napisny w Javie co czyni go użytecznym na każdym systemie operacyjnym, które obsługują język Java. Może być używany dla funkcjonalnych, systemowych, end to end lub nawet junit testów. Dodatkowo zawiera proste lecz skuteczne definicje jak wiele wbudowanych i dobrze przetestowanych udogodnień. Dzięki temu można skupić się na pisaniu orpogramowania nie martwiąc się o skomplikowaną formę pisania testów.
 
 Słownik Frameworka
-##################
+************
 
 .. csv-table:: 
    :header: **Keyword**, **Description**
