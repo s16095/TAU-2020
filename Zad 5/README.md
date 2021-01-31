@@ -15,6 +15,23 @@ Słownik Frameworka
 ************
 
 -------------
+
+**Keyword**	         **Description**
+Test suite 	         A collection of test cases that are designed specifically to test the system under test
+Test runner 	      A class which is the entry point to a test application. It is responsible for running and tracking test cases from the start to end
+Test case 	         A class which contains set of instructions that will be performed on the system under test
+Test unit 	         A method within a test case that represents the smallest and independent executable unit
+Test context 	      A container object that stores and tracks test suite, test case and test unit related information
+Test script 	      A set of instructions to guide the test runner on how to execute test cases. The test script is represented by xml script
+Scan scope 	         A section of the Java project which will be scanned during the search of test cases
+Test status 	      The state of a test case at the time of execution (namely: PASS, FAIL, SKIP or KTF)
+Unit outcome 	      The outcome of the test unit (namely: PASS, FAIL, SKIP or KTF)
+Test outcome 	      The outcome of the test case (namely: PASS, FAIL, SKIP or KTF)
+Fail stamp 	         The text stamp added to a log stream at the line of failure
+GUI test selector 	Prompt that displays scoped test cases and allow the user to run selective test cases
+Failure highlight 	Textually representation of failed test cases and its unit for user
+
+
    csv-table:: 
    :header: **Keyword**, **Description**
    :widths: 27, 73
