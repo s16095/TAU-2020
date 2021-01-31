@@ -1,12 +1,12 @@
-#ARTOS (Art of System Testing)
+# ARTOS (Art of System Testing)
 
-##Wprowadzenie
+## Wprowadzenie
 ************
 
 Artos jest zaprojektowany przez grupę doświadczonych testerów jako **darmowy** oraz **open-source** projekt do pomocy społęczności testerów na całym świecie.
 Jego celem jest dostarczenie frameworków do tesotowania, które są proste w obsłudze. Artos jest napisny w Javie co czyni go użytecznym na każdym systemie operacyjnym, które obsługują język Java. Może być używany dla funkcjonalnych, systemowych, end to end lub nawet junit testów. Dodatkowo zawiera proste lecz skuteczne definicje jak wiele wbudowanych i dobrze przetestowanych udogodnień. Dzięki temu można skupić się na pisaniu orpogramowania nie martwiąc się o skomplikowaną formę pisania testów.
 
-##Słownik Frameworka
+## Słownik Frameworka
 ************
 
 |**Keyword** | **Description**|
@@ -26,14 +26,14 @@ Jego celem jest dostarczenie frameworków do tesotowania, które są proste w ob
 |Failure highlight | Textually representation of failed test cases and its unit for user|
 
 
-##Skróty
+## Skróty
 ************
    
       KTF , "Known To Fail"
       GUI , "Graphic user interface"
 
 
-##Komentarze
+## Komentarze
 ************
 
 ARTOS używa skrótów Javy dla większości funkcji. Lista wpsieranych skrótów wylistowana poniżej.
@@ -61,7 +61,7 @@ ARTOS używa skrótów Javy dla większości funkcji. Lista wpsieranych skrótó
 |@StepDefinition | Method | Declares step definition that binds test unit to feature file|
 
 
-##Przykłady użycia
+## Przykłady użycia
 ************
 
 
