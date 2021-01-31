@@ -36,7 +36,7 @@ Słownik Frameworka
 ..
 
 Skróty
-#############
+************
 
 .. csv-table:: 
    :header: **Abbreviation**, **Description**
@@ -49,7 +49,7 @@ Skróty
 ..
 
 Komentarze
-###########
+************
 
 ARTOS używa skrótów Javy dla większości funkcji. Lista wpsieranych skrótów wylistowana poniżej.
 
@@ -80,7 +80,7 @@ ARTOS używa skrótów Javy dla większości funkcji. Lista wpsieranych skrótó
 ..
 
 Przykłady użycia
-##########################
+************
 
 .. code-block:: Java
    :linenos: 
@@ -96,7 +96,7 @@ Przykłady użycia
    @Group(group = "Regression")
    @TestPlan(preparedBy = "ArtosTeam", bdd = "GIVEN..WHEN..AND..THEN..")
    @TestCase(sequence = 1)
-   public class Sample_1 implements TestExecutable {
+    public class Sample_1 implements TestExecutable {
 
       @Group(group = "BADPATH")
       @TestImportance(Importance.LOW)
@@ -116,6 +116,6 @@ Przykłady użycia
          // ---------------------------------------------------
       }
 
-   }
+      }
 
 ..
